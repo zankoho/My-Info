@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <title>Registracija</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <body>
+        <nav class="zone blue sticky">
+            <ul class="main-nav">
+              <li><a href="index.html">Domov</a></li>
+              <li><a href="omeni.html">Življenjepis</a></li>
+              <li><a href="predmeti.html">Predmeti</a></li>
+              <li class="push"><a href="https://mailchi.mp/0c4f06153ad4/horvat">Subscribe</a></li>
+            </ul>
+          </nav>
+        <form>
+            <form action=""  method="POST">
+                <input type="text" name="Ime" placeholder="Ime"><br>
+                <input type="text" name="Priimek" placeholder="Priimek" required><br>
+                <input type="date" name="rojdatum" placeholder="Rojstni datum" required><br>
+                <p>Spol:</p>
+                <input type="radio" name="spol"value="moski" >Moški<br>
+                <input type="radio" name="spol"value="zenska">Ženska<br>
+                <input type="radio" name="spol" value="helikopter">Drugo<br>
+               Tovornjaki:
+                <select>
+                    <option value="Volvo"> Volvo</option>
+                    <option value="Scania"> Scania</option>
+                    <option value="Man"> Man</option>
+                </select><br>
+                <input type="email" name="enaslov" placeholder="e-naslov" required><br>
+                <input type="password" name="geslo" placeholder="geslo" min="6" required><br>
+                <input type="tel" name="Telefon" placeholder="Telefon" required><br>
+                <input type="submit" value="Registreraj">
+                <input type="reset">
+            </form> 
+        </form>
+    </body>
+</html>
